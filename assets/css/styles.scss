@@ -71,7 +71,7 @@ section {
         li {
             margin: 16px 8px;
             a {
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 font-size: 16px;
                 line-height: 0.63;
                 color: $black;
@@ -139,7 +139,7 @@ section {
                 transition: all .3s;
                 font-size: 20px;
                 margin-right: 5px;
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 color: #000000;
                 &:hover {
                     box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0.1);
@@ -394,6 +394,7 @@ section {
 */
 
 .res-portfolio {
+    padding-top: 100px;
     padding-bottom: 250px;
     .resume-item {
         padding: 60px 25px 0px 45px;
@@ -520,14 +521,14 @@ section {
                 }
             }
             p {
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 font-size: 18px;
                 line-height: 1.6;
                 color: #000000;
                 margin-bottom: 35px;
             }
             h5 {
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 font-size: 16px;
                 line-height: 1.25;
                 letter-spacing: -0.22px;
@@ -536,7 +537,7 @@ section {
             }
             h6 {
                 opacity: 0.5;
-                font-family: "Louis-George-Cafe.ttf";
+                font-family: "Poppins";
                 font-size: 16px;
                 line-height: 1.25;
                 letter-spacing: -0.22px;
@@ -631,7 +632,7 @@ section {
             }
             .social-details {
                 h5 {
-                    font-family: "Louis-George-Cafe-Bold.ttf";
+                    font-family: "Poppins";
                     font-size: 25px;
                     letter-spacing: -0.63px;
                     color: $black;
@@ -670,7 +671,7 @@ section {
                 margin-bottom: 10px;
             }
             p {
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 opacity: 0.4;
                 font-size: 18px;
                 line-height: 1.41;
@@ -688,7 +689,7 @@ section {
         .form-group {
             margin-bottom: 40px;
             .contact-name {
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 font-size: 18px;
                 font-weight: bold;
                 color: #232426;
@@ -699,7 +700,7 @@ section {
                 padding: 0px;
             }
             .contact-message {
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 font-size: 18px;
                 font-weight: bold;
                 color: #232426;
@@ -740,7 +741,7 @@ section {
     color: $white;
     position: relative;
     margin: 0 auto;
-    font-family: "Louis-George-Cafe-Bold.ttf";
+    font-family: "Poppins";
     &::after {
         content: attr(data-text);
         position: absolute;
@@ -791,7 +792,7 @@ section {
     a {
         text-decoration: none;
         color: inherit;
-        font-family: "Louis-George-Cafe-Bold.ttf";
+        font-family: "Poppins";
         &.cta {
             position: relative;
             margin: auto;
@@ -1049,7 +1050,7 @@ section {
                 margin-bottom: 34px;
             }
             span {
-                font-family: "Louis-George-Cafe-Bold.ttf";
+                font-family: "Poppins";
                 position: absolute;
                 font-size: 110px;
                 color: rgba(255, 255, 255, .07);

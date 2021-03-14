@@ -89,7 +89,7 @@ html {
 }
 
 body {
-  font-family: "Louis-George-Cafe.ttf";
+  font-family: "Poppins";
   font-size: 14px;
   font-style: none;
   line-height: 24px;
@@ -101,8 +101,13 @@ body {
   opacity: 1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
 }
 
 p {
@@ -553,17 +558,85 @@ p {
   z-index: 0;
 }
 
+/* poppins-200 - latin */
 @font-face {
-  font-family: "Louis-George-Cafe.ttf";
-  src: url("../fonts/Louis-George-Cafe.ttf");
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/poppins-v15-latin-200.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-200.woff2") format("woff2"), url("../fonts/poppins-v15-latin-200.woff") format("woff"), url("../fonts/poppins-v15-latin-200.ttf") format("truetype"), url("../fonts/poppins-v15-latin-200.svg#Poppins") format("svg");
+  /* Legacy iOS */
 }
+/* poppins-300 - latin */
 @font-face {
-  font-family: "Louis-George-Cafe-Bold.ttf";
-  src: url("../fonts/Louis-George-Cafe-Bold.ttf");
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v15-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-300.woff2") format("woff2"), url("../fonts/poppins-v15-latin-300.woff") format("woff"), url("../fonts/poppins-v15-latin-300.ttf") format("truetype"), url("../fonts/poppins-v15-latin-300.svg#Poppins") format("svg");
+  /* Legacy iOS */
 }
+/* poppins-regular - latin */
 @font-face {
-  font-family: "Louis-George-Cafe-Light.ttf";
-  src: url("../fonts/Louis-George-Cafe-Light.ttf");
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v15-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v15-latin-regular.woff") format("woff"), url("../fonts/poppins-v15-latin-regular.ttf") format("truetype"), url("../fonts/poppins-v15-latin-regular.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v15-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-500.woff2") format("woff2"), url("../fonts/poppins-v15-latin-500.woff") format("woff"), url("../fonts/poppins-v15-latin-500.ttf") format("truetype"), url("../fonts/poppins-v15-latin-500.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v15-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-600.woff2") format("woff2"), url("../fonts/poppins-v15-latin-600.woff") format("woff"), url("../fonts/poppins-v15-latin-600.ttf") format("truetype"), url("../fonts/poppins-v15-latin-600.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v15-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-700.woff2") format("woff2"), url("../fonts/poppins-v15-latin-700.woff") format("woff"), url("../fonts/poppins-v15-latin-700.ttf") format("truetype"), url("../fonts/poppins-v15-latin-700.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v15-latin-800.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-800.woff2") format("woff2"), url("../fonts/poppins-v15-latin-800.woff") format("woff"), url("../fonts/poppins-v15-latin-800.ttf") format("truetype"), url("../fonts/poppins-v15-latin-800.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v15-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/poppins-v15-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-900.woff2") format("woff2"), url("../fonts/poppins-v15-latin-900.woff") format("woff"), url("../fonts/poppins-v15-latin-900.ttf") format("truetype"), url("../fonts/poppins-v15-latin-900.svg#Poppins") format("svg");
+  /* Legacy iOS */
 }
 /** 
  * -----------------
@@ -635,7 +708,7 @@ section {
   margin: 16px 8px;
 }
 .mh-header .navbar-nav li a {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   font-size: 16px;
   line-height: 0.63;
   color: #000000;
@@ -696,7 +769,7 @@ section {
   transition: all 0.3s;
   font-size: 20px;
   margin-right: 5px;
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   color: #000000;
 }
 .resume-home .resume-social ul li:hover {
@@ -807,6 +880,7 @@ section {
     =================
 */
 .res-portfolio {
+  padding-top: 100px;
   padding-bottom: 250px;
 }
 .res-portfolio .resume-item {
@@ -927,14 +1001,14 @@ section {
   margin-bottom: 15px;
 }
 .resume-feedback .advice_slider .advice_c p {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   font-size: 18px;
   line-height: 1.6;
   color: #000000;
   margin-bottom: 35px;
 }
 .resume-feedback .advice_slider .advice_c h5 {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.22px;
@@ -943,7 +1017,7 @@ section {
 }
 .resume-feedback .advice_slider .advice_c h6 {
   opacity: 0.5;
-  font-family: "Louis-George-Cafe.ttf";
+  font-family: "Poppins";
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.22px;
@@ -1032,7 +1106,7 @@ section {
   background-color: #0177ac;
 }
 .resume-feedback .resume-card-social .social-inner .social-details h5 {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   font-size: 25px;
   letter-spacing: -0.63px;
   color: #000000;
@@ -1068,7 +1142,7 @@ section {
   margin-bottom: 10px;
 }
 .resume-contact .contact-details .contact-name p {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   opacity: 0.4;
   font-size: 18px;
   line-height: 1.41;
@@ -1086,7 +1160,7 @@ section {
   margin-bottom: 40px;
 }
 .resume-contact .resume-form .form-group .contact-name {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   font-size: 18px;
   font-weight: bold;
   color: #232426;
@@ -1097,7 +1171,7 @@ section {
   padding: 0px;
 }
 .resume-contact .resume-form .form-group .contact-message {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   font-size: 18px;
   font-weight: bold;
   color: #232426;
@@ -1131,7 +1205,7 @@ section {
   color: #ffffff;
   position: relative;
   margin: 0 auto;
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
 }
 .btn-sss::after {
   content: attr(data-text);
@@ -1160,138 +1234,138 @@ section {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(100px, 9999px, 51px, 0);
+    clip: rect(20px, 9999px, 14px, 0);
   }
   5% {
-    clip: rect(41px, 9999px, 22px, 0);
+    clip: rect(100px, 9999px, 16px, 0);
   }
   10% {
-    clip: rect(28px, 9999px, 82px, 0);
+    clip: rect(39px, 9999px, 89px, 0);
   }
   15% {
-    clip: rect(79px, 9999px, 24px, 0);
+    clip: rect(35px, 9999px, 58px, 0);
   }
   20% {
-    clip: rect(63px, 9999px, 64px, 0);
+    clip: rect(51px, 9999px, 58px, 0);
   }
   25% {
-    clip: rect(36px, 9999px, 86px, 0);
+    clip: rect(85px, 9999px, 88px, 0);
   }
   30% {
-    clip: rect(68px, 9999px, 16px, 0);
+    clip: rect(82px, 9999px, 83px, 0);
   }
   35% {
-    clip: rect(70px, 9999px, 42px, 0);
+    clip: rect(91px, 9999px, 44px, 0);
   }
   40% {
-    clip: rect(88px, 9999px, 17px, 0);
+    clip: rect(42px, 9999px, 63px, 0);
   }
   45% {
-    clip: rect(49px, 9999px, 41px, 0);
+    clip: rect(33px, 9999px, 7px, 0);
   }
   50% {
-    clip: rect(67px, 9999px, 25px, 0);
+    clip: rect(33px, 9999px, 52px, 0);
   }
   55% {
-    clip: rect(66px, 9999px, 40px, 0);
+    clip: rect(59px, 9999px, 71px, 0);
   }
   60% {
-    clip: rect(3px, 9999px, 75px, 0);
+    clip: rect(89px, 9999px, 67px, 0);
   }
   65% {
-    clip: rect(42px, 9999px, 85px, 0);
+    clip: rect(18px, 9999px, 58px, 0);
   }
   70% {
-    clip: rect(90px, 9999px, 63px, 0);
+    clip: rect(12px, 9999px, 20px, 0);
   }
   75% {
-    clip: rect(66px, 9999px, 75px, 0);
+    clip: rect(76px, 9999px, 21px, 0);
   }
   80% {
-    clip: rect(58px, 9999px, 5px, 0);
+    clip: rect(80px, 9999px, 9px, 0);
   }
   85% {
-    clip: rect(22px, 9999px, 49px, 0);
+    clip: rect(84px, 9999px, 47px, 0);
   }
   90% {
-    clip: rect(87px, 9999px, 6px, 0);
+    clip: rect(73px, 9999px, 43px, 0);
   }
   95% {
-    clip: rect(92px, 9999px, 45px, 0);
+    clip: rect(49px, 9999px, 28px, 0);
   }
   100% {
-    clip: rect(5px, 9999px, 94px, 0);
+    clip: rect(51px, 9999px, 24px, 0);
   }
 }
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(34px, 9999px, 7px, 0);
+    clip: rect(57px, 9999px, 69px, 0);
   }
   5% {
-    clip: rect(38px, 9999px, 41px, 0);
+    clip: rect(25px, 9999px, 6px, 0);
   }
   10% {
-    clip: rect(52px, 9999px, 88px, 0);
+    clip: rect(75px, 9999px, 99px, 0);
   }
   15% {
-    clip: rect(5px, 9999px, 16px, 0);
+    clip: rect(78px, 9999px, 88px, 0);
   }
   20% {
-    clip: rect(97px, 9999px, 33px, 0);
+    clip: rect(56px, 9999px, 17px, 0);
   }
   25% {
-    clip: rect(37px, 9999px, 97px, 0);
+    clip: rect(9px, 9999px, 34px, 0);
   }
   30% {
-    clip: rect(18px, 9999px, 62px, 0);
+    clip: rect(75px, 9999px, 96px, 0);
   }
   35% {
-    clip: rect(19px, 9999px, 71px, 0);
+    clip: rect(40px, 9999px, 27px, 0);
   }
   40% {
-    clip: rect(100px, 9999px, 57px, 0);
+    clip: rect(43px, 9999px, 91px, 0);
   }
   45% {
-    clip: rect(9px, 9999px, 28px, 0);
+    clip: rect(33px, 9999px, 19px, 0);
   }
   50% {
-    clip: rect(76px, 9999px, 9px, 0);
+    clip: rect(79px, 9999px, 22px, 0);
   }
   55% {
-    clip: rect(27px, 9999px, 36px, 0);
+    clip: rect(86px, 9999px, 80px, 0);
   }
   60% {
-    clip: rect(66px, 9999px, 16px, 0);
+    clip: rect(95px, 9999px, 98px, 0);
   }
   65% {
-    clip: rect(74px, 9999px, 32px, 0);
+    clip: rect(24px, 9999px, 43px, 0);
   }
   70% {
-    clip: rect(88px, 9999px, 6px, 0);
+    clip: rect(16px, 9999px, 79px, 0);
   }
   75% {
-    clip: rect(33px, 9999px, 93px, 0);
+    clip: rect(55px, 9999px, 87px, 0);
   }
   80% {
-    clip: rect(47px, 9999px, 90px, 0);
+    clip: rect(99px, 9999px, 62px, 0);
   }
   85% {
-    clip: rect(94px, 9999px, 47px, 0);
+    clip: rect(44px, 9999px, 26px, 0);
   }
   90% {
-    clip: rect(22px, 9999px, 15px, 0);
+    clip: rect(35px, 9999px, 36px, 0);
   }
   95% {
-    clip: rect(30px, 9999px, 88px, 0);
+    clip: rect(57px, 9999px, 41px, 0);
   }
   100% {
-    clip: rect(33px, 9999px, 18px, 0);
+    clip: rect(97px, 9999px, 80px, 0);
   }
 }
 .btn-default a {
   text-decoration: none;
   color: inherit;
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
 }
 .btn-default a.cta {
   position: relative;
@@ -1527,7 +1601,7 @@ section {
   margin-bottom: 34px;
 }
 .res-about-title .ab-title-inner .ab-title-icon span {
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Poppins";
   position: absolute;
   font-size: 110px;
   color: rgba(255, 255, 255, 0.07);
