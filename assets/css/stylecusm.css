@@ -11,3 +11,20 @@
 .text-primary {
     color: #8241f9 !important;
 }
+
+.marg-m {
+    margin-bottom: 7rem!important;
+}
+
+.text-align-box-ser {
+    text-align: left !important;
+}
+
+@media screen and (max-width:430px) {
+    .marg-m {
+        margin-bottom: 4rem!important;
+    }
+    .logo-marg-bo {
+        margin-bottom: 4rem!important;
+    }
+}
