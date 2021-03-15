@@ -1,0 +1,13 @@
+.btn-primary {
+    background-image: linear-gradient(to bottom, #8241f9, #4e277b) !important;
+    padding: 18px 32px !important;
+    border: none !important;
+}
+
+.btn {
+    padding: 18px 32px !important;
+}
+
+.text-primary {
+    color: #8241f9 !important;
+}
