@@ -4,10 +4,8 @@
  */
 
 @import "../abstracts/abstracts";
-
 // BASE STYLES
-@import "preflight";
-
+// @import "preflight";
 // LAYOUT
 //@import "container";
 @import "display";
@@ -19,17 +17,13 @@
 @import "inset";
 @import "visibility";
 @import "zIndex";
-
 // TYPOGRAPHY
-
 // BACKGROUND
-
 // BORDER
 @import "borderColor";
 @import "borderStyle";
 @import "borderWidth";
 @import "borderRadius";
-
 // FLEX BOX
 @import "flexDirection";
 @import "flexWrap";
@@ -41,11 +35,9 @@
 @import "flexGrow";
 @import "flexShrink";
 @import "order";
-
 // SPACING
 @import "padding";
 @import "margin";
-
 // SIZING
 @import "width";
 @import "minWidth";
@@ -53,23 +45,19 @@
 @import "height";
 @import "minHeight";
 @import "maxHeight";
-
 // TABLES
 @import "borderCollapse";
 @import "tableLayout";
-
 // EFFECT
 @import "boxShadow";
 @import "opacity";
-
 // INTERACTIVITY
 @import "appearance";
-@import "cursor";
-@import "outline";
-@import "pointerEvents";
-@import "resize";
-@import "userSelect";
-
+// @import "cursor";
+// @import "outline";
+// @import "pointerEvents";
+// @import "resize";
+// @import "userSelect";
 // SVG
 @import "fill";
 @import "stroke";
