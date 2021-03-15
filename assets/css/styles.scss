@@ -462,7 +462,11 @@ p {
 
 .body-2 {
     .btn {
-        border-radius: 50px;
+        border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
         &.btn-stroke {
             color: $white;
         }
